@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+::selection {
+    color: #000;
+    background: #fff;
+}
+nav {
+    position: fixed;
+    background: purple;
+    width: 100% ;
+    padding: 10px;
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+nav .logo a {
+    text-decoration: yellow;
+    color: yellow;
+    font-size: 35px;
+    font-weight: 600;
+}
+.menu ul{
+    display: inline-flex;
+
+}
+.menu ul li {
+    list-style: none ;
+    margin-left: 8px;
+}
+.menu ul li a {
+     text-decoration: none;
+    color: yellow ;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.menu ul li a:hover {
+background: rgb(245, 243, 245);
+color: rgb(36, 36, 6);
+}
+ table, th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+
+}
+.img {
+    background: url(/smoth/straw.smoth.cream.jpeg) no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.img h2{
+    color: yellow;
+    position: absolute;
+   
+}
+.Image{
+    background: url(/smoth/cut.jpeg) no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+.Index{
+    background: url(/pictures/fruits.jpeg) no-repeat;
+        width: 100%;
+        height: 100vh;
+     background-size: cover;
+        background-position: fixed;
+        background-attachment: fixed;
+    }
+/* Style the footer */
+.Wa {
+    background-color:purple;
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+}
+.orange{
+    background: url(/smoth/orang\ tee.webp) no-repeat;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: fixed;
+        background-attachment: scroll;
+}
+.CUT{
+    background: url(/smoth/mago.cina.smoth.jpeg) no-repeat;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: fixed;
+        background-attachment: fixed;
+    }
+.About h2 {
+    text-align: center;
+    vertical-align: baseline;
+    line-height: normal;
+    word-spacing: normal;
+    margin: auto;
+}
+.About h5{
+    text-align: center;
+}
+.menuu{
+    text-align: center;
+        vertical-align: baseline;
+        line-height: normal;
+        word-spacing: normal;
+        margin: auto;
+        background-color:papayawhip;
+       
+}
+.menuu table {
+    margin: 0 auto;
+}
+#back{
+    text-align: right;
+
+}
+.Cuisine{
+    position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding: 20px 20px;
+        text-align: right;
+}
+.Cuisine p{
+    color: rgb(10, 10, 10);
+        font-size: 35px;
+        font-weight: 400;
+}
+.Cuisine dl{
+    color: rgb(8, 8, 8);
+        font-size: 30px;
+        font-weight: 400;
+}
+
+#forms {
+    text-align: center;
+    
+}
+#location{
+    text-align: center;
+    
+}
+main{
+    background-color:papayawhip;
+}
+.home{
+    position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding: 20px 20px;
+        text-align: center;
+}
+.home p{
+    color:rgb(242, 250, 11);
+     font-size: 30px;
+    font-weight: 400;
+} 
+
+.home button{
+    height: 55px;
+        width: 170px;
+        border-radius: 30px;
+        border: none;
+        margin: 0 10px;
+        border: 2px solid white;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 10px;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease;
+}
+.home button:hover{
+    background-color: purple;
+    color: yellow;
+}
